@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #007D9C;
+    height: 400px;
+}
+
+.navbar {
+  border-bottom: solid 1px rgba(151, 151, 151, 0.688);
+  height: 3.6rem;
+}
+
+.top-left img {
+    width: 70px;
+}
+
+.nav-button{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+  
+  /* .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky
+      pointer-events: none;
+  } 
+  */
+
+  .nav-drop-first{
+    width: 250px;
+    font-size: 15px;
+  }
+  .nav-drop-first a{
+    color: #007D9C;
+    text-decoration: none;
+  }
+ 
+  .nav-drop-first li:hover {
+    text-decoration: underline #007D9C;
+    background-color: white;
+  }
+  .nav-drop-first a:hover {
+    text-decoration: underline #007D9C;
+  }
+
+  .nav-drop-second{
+    width: 350px;
+    font-size: 15px;
+  }
+  .nav-drop-second a{
+    color: #007D9C;
+    text-decoration: none;
+  }
+  .nav-drop-second a:hover {
+    text-decoration: underline #007D9C;
+  }
+
+
+  .nav-drop-third{
+    width: 350px;
+    font-size: 15px;
+  }
+  .nav-drop-third a{
+    color: #007D9C;
+    text-decoration: none;
+  }
+  .nav-drop-third a:hover {
+    text-decoration: underline #007D9C;
+  }
+
+  .test2{
+    margin-left: -200px;
+  }
+
+  /* for text colgrou */
+  .txt-color {
+    color: white;
+  }
+/* test */
+
+  @media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 55%;
+        height: 100%;
+        
+    }
+
+   
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+}
+
+.navbar{
+  /*   z-index should be above .close-navbar-toggler */
+    z-index:2;
+  }
+  .navbar-collapse{
+    height: 100%;
+    z-index:1;
+    cursor:pointer;
+  }
+  .navbar-collapse .collapse{
+    z-index:-1;
+  }
+
+ 
+ 
