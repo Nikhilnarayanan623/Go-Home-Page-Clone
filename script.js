@@ -17,7 +17,7 @@ $(document).ready(function () {
          $('.navbar-collapse').collapse('hide');
          if(x==1){
             console.log("body inside")
-            document.getElementById("navbarDropdownMenuLink").style.color="#007D9C"
+            document.getElementById("nav-why").style.color="#007D9C"
             document.getElementById("nav-learn").style.color="#007D9C"
             document.getElementById("nav-docs").style.color="#007D9C"
             document.getElementById("nav-packages").style.color="#007D9C"
@@ -28,7 +28,7 @@ $(document).ready(function () {
          }
          else{
             $("#navbarCollapse").removeClass("bg-white");
-            document.getElementById("navbarDropdownMenuLink").style.color="white"
+            document.getElementById("nav-why").style.color="white"
             document.getElementById("nav-learn").style.color="white"
             document.getElementById("nav-docs").style.color="white"
             document.getElementById("nav-packages").style.color="white"

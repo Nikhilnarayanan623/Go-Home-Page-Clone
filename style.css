@@ -139,9 +139,23 @@
   .sec1-download a{
     color: white;
   }
+
+  .btn-first {
+    height: 40px;
+  }
+  
+  /* to control image, button and height of the section */
   @media  (max-width: 766px) {
     .section1 {
        height: max-content;
+    }
+  }
+
+  @media (max-width:464px){
+    .btn-first{
+      font-size: 12px;
+      width: 100px;
+      height: 40px;
     }
   }
 
@@ -155,8 +169,16 @@
       width: 190px;
     }
     .section1 {
-      height: 655px;
+      height: 660px;
+   }
+  }
+
+  @media  (min-width:1024px){
+    .section1 {
+      height: 600px;
    }
   }
  
+
+/* second section */
  
