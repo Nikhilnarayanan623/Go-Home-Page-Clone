@@ -41,10 +41,9 @@ $(document).ready(function () {
 
     $("#nav-button").click(function () {
         
-            
 
-            console.log("button")
-            x=1;
+      console.log("button")
+      x=1;
        
      });
   });

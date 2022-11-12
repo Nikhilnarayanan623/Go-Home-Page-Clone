@@ -1,162 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go Home-Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <header  class="mb-5">
-        <!-- <div class="top container-fluid"> -->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top align-items-center">
-                <div class="col top-left ms-3">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/go-logo-white.svg" alt="">
-                    </a>
-                </div>
-                <button class="navbar-toggler" id="nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse " id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto me-3 row gx-5">
-                        <li class="nav-item dropdown col">
-                            <a class="nav-link dropdown-toggle" href="#" id="nav-why" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                              Why Go
-                            </a>
-                            <div class="row dropdown-menu nav-drop-first">
-    
-                                <div class="col box">
-                                    <a href="">Case Studies</a>
-                                    <p>Common problems companies Solve with Go</p>
-                                </div>
-    
-                                <div class=" col box">
-                                    <a href="">Use Cases</a>
-                                    <p>Stories about how and why componies use Go</p>
-                                </div>
-                                <div class="col box">
-                                    <a href="">Security Policy</a>
-                                    <p>How Go can help keep you secure by default</p>
-                                </div>
+<body>
+
+    <header class="mb-5">
+        <!-- <div class="top container-fluid"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top align-items-center">
+            <div class="col top-left ms-3">
+                <a class="navbar-brand" href="#">
+                    <img src="images/go-logo-white.svg" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" id="nav-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarCollapse">
+                <ul class="navbar-nav ms-auto me-3 row gx-5">
+                    <li class="nav-item dropdown col">
+                        <a class="nav-link dropdown-toggle" href="#" id="nav-why" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Why Go
+                        </a>
+                        <div class="row dropdown-menu nav-drop-first">
+
+                            <div class="col box">
+                                <a href="">Case Studies</a>
+                                <p>Common problems companies Solve with Go</p>
                             </div>
-                            
-                            
-                        </li>
-                        <li class="nav-item col">
-                            <a id="nav-learn" class="nav-link" href="#">Learn</a>
-                        </li>
-                          
-                        <li class="nav-item dropdown col">
-                            <a class="nav-link dropdown-toggle" href="#" id="nav-docs" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                              Docs
-                            </a>
-                            <div class="row dropdown-menu nav-drop-second ">
-    
-                                <div class="col test">
-                                    <a href="">Effective Go</a>
-                                    <p>Tips for writting clear,perfomant,and idiomatic Go code</p>
-                                </div>
-    
-                                <div class=" col test">
-                                    <a href="">Go User Manual</a>
-                                    <p>A complete introduction to building software with Go</p>
-                                </div>
-                                <div class="col test">
-                                    <a href="">Standard Library</a>
-                                    <p>Reference documentation for Go's standard library</p>
-                                </div>
-                                <div class="col test">
-                                    <a href="">Relase Notes</a>
-                                    <p>Learn what's new in each Go relase</p>
-                                </div>
+
+                            <div class=" col box">
+                                <a href="">Use Cases</a>
+                                <p>Stories about how and why componies use Go</p>
                             </div>
-                            
-                            
-                        </li>
-    
-                        <li class="nav-item col">
-                            <a class="nav-link" id="nav-packages" href="#">Packages</a>
-                        </li>
-    
-                        <li class="nav-item dropdown col test1">
-                            <a class="nav-link dropdown-toggle" href="#" id="nav-community" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                Community
-                            </a>
-                            <div class="row dropdown-menu dropdown-menu-end nav-drop-third box test2" >
-    
-                                <div class="col test">
-                                    <a href="">Recorded Talks</a>
-                                    <p>Videos from prior events</p>
-                                </div>
-    
-                                <div class=" col test">
-                                    <a href="">Meetups</a>
-                                    <p>Meet other local Go developers</p>
-                                </div>
-                                <div class="col test">
-                                    <a href="">Coferences</a>
-                                    <p>Learn and network with Go developers from around the world</p>
-                                </div>
-                                <div class="col test">
-                                    <a href="">Go blog</a>
-                                    <p>The Go project's official blog</p>
-                                </div>
-                                <div class="col test">
-                                    <a href="">Go project</a>
-                                    <p>Get help and stay informed from Go</p>
-                                </div>
-                                <div class="col test">
-                                    <p>Get connected</p>
-                                </div>
-            
+                            <div class="col box">
+                                <a href="">Security Policy</a>
+                                <p>How Go can help keep you secure by default</p>
                             </div>
-                            
-                        </li>
-                    </ul>
-                  </div>
-            </nav>
+                        </div>
+
+
+                    </li>
+                    <li class="nav-item col">
+                        <a id="nav-learn" class="nav-link" href="#">Learn</a>
+                    </li>
+
+                    <li class="nav-item dropdown col">
+                        <a class="nav-link dropdown-toggle" href="#" id="nav-docs" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Docs
+                        </a>
+                        <div class="row dropdown-menu nav-drop-second ">
+
+                            <div class="col test">
+                                <a href="">Effective Go</a>
+                                <p>Tips for writting clear,perfomant,and idiomatic Go code</p>
+                            </div>
+
+                            <div class=" col test">
+                                <a href="">Go User Manual</a>
+                                <p>A complete introduction to building software with Go</p>
+                            </div>
+                            <div class="col test">
+                                <a href="">Standard Library</a>
+                                <p>Reference documentation for Go's standard library</p>
+                            </div>
+                            <div class="col test">
+                                <a href="">Relase Notes</a>
+                                <p>Learn what's new in each Go relase</p>
+                            </div>
+                        </div>
+
+
+                    </li>
+
+                    <li class="nav-item col">
+                        <a class="nav-link" id="nav-packages" href="#">Packages</a>
+                    </li>
+
+                    <li class="nav-item dropdown col test1">
+                        <a class="nav-link dropdown-toggle" href="#" id="nav-community" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Community
+                        </a>
+                        <div class="row dropdown-menu dropdown-menu-end nav-drop-third box test2">
+
+                            <div class="col test">
+                                <a href="">Recorded Talks</a>
+                                <p>Videos from prior events</p>
+                            </div>
+
+                            <div class=" col test">
+                                <a href="">Meetups</a>
+                                <p>Meet other local Go developers</p>
+                            </div>
+                            <div class="col test">
+                                <a href="">Coferences</a>
+                                <p>Learn and network with Go developers from around the world</p>
+                            </div>
+                            <div class="col test">
+                                <a href="">Go blog</a>
+                                <p>The Go project's official blog</p>
+                            </div>
+                            <div class="col test">
+                                <a href="">Go project</a>
+                                <p>Get help and stay informed from Go</p>
+                            </div>
+                            <div class="col test">
+                                <p>Get connected</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <!-- </div> -->
 
         <!-- test -->
 
-        
+
     </header>
 
-    <section  style="background-color: #007D9C;">
+    <section style="background-color: #007D9C;">
         <div class="container-lg section1 pt-5 text-white">
             <div class="row pt-3">
 
                 <div class="col-8 col-md-6 order-1 order-md-1 sec1-title">
                     <h1>Buid fast, reliable, and efficient software at scale</h1>
                     <ul class="mt-3">
-                        <li><p>Go is an open source programing language supprted by Google</p> </li>
-                        <li><p>Easy to learn and get started with</p></li>
-                        <li><p>Built-in concurency and a robust standard library</p></li>
-                        <li><p>Growing ecosystem of partners, coummunity, and tools</p></li>
+                        <li>
+                            <p>Go is an open source programing language supprted by Google</p>
+                        </li>
+                        <li>
+                            <p>Easy to learn and get started with</p>
+                        </li>
+                        <li>
+                            <p>Built-in concurency and a robust standard library</p>
+                        </li>
+                        <li>
+                            <p>Growing ecosystem of partners, coummunity, and tools</p>
+                        </li>
                     </ul>
                 </div>
-                
+
                 <div class="col-12 col-md-7 order-3 order-md-3  sec1-download  g-4">
                     <div class="row g-5  container align-content-center justify-content-between ">
-                        
+
                         <button class="btn bg-info col-5 bg-warning btn-first">Get Secured</button>
-                        
-                        
-                        <button  class="btn bg-info col-5 bg-transparent border-white text-white btn-first">Download</button>
-                       
+
+
+                        <button
+                            class="btn bg-info col-5 bg-transparent border-white text-white btn-first">Download</button>
+
                     </div>
                     <div class="mt-4 ">
-                        <p>Download packages for <a href="">Windows 64-bit</a>, <a href="">macOs</a>, <a href="">Linux</a>, and <a href="">more</a></p>
+                        <p>Download packages for <a href="">Windows 64-bit</a>, <a href="">macOs</a>, <a
+                                href="">Linux</a>, and <a href="">more</a></p>
                         <p>The go command by default downloads and authenticates modules using the Go module mirror and
-                        Go  checksum database run by Google. <a href="">Learn more.</a>
+                            Go checksum database run by Google. <a href="">Learn more.</a>
                         </p>
                     </div>
-                    
+
                 </div>
 
                 <div class="col-3 col-md-5 order-2 order-md-3 sec1-image d-flex justify-content-end">
@@ -171,9 +189,10 @@
         <div class="container  pt-5">
             <div class="row d-flex justify-content-center align-items-center text-center">
                 <h1>Companies using Go</h1>
-                <p>Organization in every industry use Go to power their software and services &nbsp<a href="">View all stories</a></p>
+                <p>Organization in every industry use Go to power their software and services &nbsp<a href="">View all
+                        stories</a></p>
 
-               <div class="row companies d-flex justify-content-around g-3">
+                <div class="row companies d-flex justify-content-around g-3">
 
                     <div class="card justify-content-center align-items-center" style="width: 12rem;">
                         <img src="images/companies/google.svg" class="card-img-top" alt="...">
@@ -210,7 +229,7 @@
                     <div class="card justify-content-center align-items-center" style="width: 12rem;">
                         <img src="images/companies/dropbox.png" class="card-img-top" alt="...">
                     </div>
-                    
+
                     <div class="card justify-content-center align-items-center" style="width: 12rem;">
                         <img src="images/companies/cloudflare_light.svg" class="card-img-top" alt="...">
                     </div>
@@ -243,45 +262,58 @@
                     <div class="card justify-content-center align-items-center" style="width: 12rem;">
                         <img src="images/companies/uber_light.svg" class="card-img-top" alt="...">
                     </div>
-               </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section3  d-flex align-items-center justify-content-center" >
+    <section class="section3  d-flex align-items-center justify-content-center">
         <div class="container">
             <div class="row">
-            
-                <div id="carouselExampleControls"  class="carousel slide d-flex mt-5" data-bs-ride="carousel">
+
+                <div id="carouselExampleControls" class="carousel slide d-flex mt-5" data-bs-ride="carousel">
                     <div class="carousel-inner ">
 
                         <div class="carousel-item active">
                             <div class="container first-text text-center">
-                                <q>At the time, no single team member knew Go, but <strong>within a month, everyone was writing in Go <br> </strong>
-                                    and we were building out the endpoints. It was the flexibility, how easy it was to use, and of course <br>
-                                    cool concept behind Go (how Go handles native concurency, garbage collection, and of course <br>
-                                    safetly+speed.) that helped engage us during the build. Also, who can beat that cute mascot!
+                                <q>At the time, no single team member knew Go, but <strong>within a month, everyone was
+                                        writing in Go <br> </strong>
+                                    and we were building out the endpoints. It was the flexibility, how easy it was to
+                                    use, and of course <br>
+                                    cool concept behind Go (how Go handles native concurency, garbage collection, and of
+                                    course <br>
+                                    safetly+speed.) that helped engage us during the build. Also, who can beat that cute
+                                    mascot!
                                 </q>
-                                <p class="text-end me-4 mt-4">— Jaime Enrique Garcia Lopez, Senior Software Development Manager at Capital One</p>
+                                <p class="text-end me-4 mt-4">— Jaime Enrique Garcia Lopez, Senior Software Development
+                                    Manager at Capital One</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="container first-text text-center">
-                                <q> <strong>A small language that compiles fast makes for a happy developers.</strong> The Go language is small, <br>
-                                    compilers really fast, and as a result it lets your mind focus on the actual problem and less on the tool <br>
-                                    you are using to solve it. Code, test, debug cylces are so quickly that you forget you are not working <br>
-                                    with an interpreted language. Looking at our code, you see <strong>less boilerplate and more business <br>
-                                    logic.</strong>
+                                <q> <strong>A small language that compiles fast makes for a happy developers.</strong>
+                                    The Go language is small, <br>
+                                    compilers really fast, and as a result it lets your mind focus on the actual problem
+                                    and less on the tool <br>
+                                    you are using to solve it. Code, test, debug cylces are so quickly that you forget
+                                    you are not working <br>
+                                    with an interpreted language. Looking at our code, you see <strong>less boilerplate
+                                        and more business <br>
+                                        logic.</strong>
                                 </q>
                                 <p class="text-end me-4 mt-4">— Clayton Coleman, Lead Engineer, Open Shift at RedHat</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="container first-text text-center">
-                                <q> <strong>Go has excellent characteristics for scalability and services written using it typically have <br>
-                                    very small memory footprints. </strong> Because code is compiled into a single static binary, services can  <br>
-                                    also be containerised with ease, making it much simpler to build and deploy. These attributes make <br>
-                                    <strong>Go an ideal choice for companies building microservices,</strong> as you can easily deploy into a highly<br>
+                                <q> <strong>Go has excellent characteristics for scalability and services written using
+                                        it typically have <br>
+                                        very small memory footprints. </strong> Because code is compiled into a single
+                                    static binary, services can <br>
+                                    also be containerised with ease, making it much simpler to build and deploy. These
+                                    attributes make <br>
+                                    <strong>Go an ideal choice for companies building microservices,</strong> as you can
+                                    easily deploy into a highly<br>
                                     available and scalable environment such as Kubernetes.
                                 </q>
                                 <p class="text-end me-4 mt-4">— Matt Boyle, Lead Software Engineer at Curve</p>
@@ -289,58 +321,282 @@
                         </div>
                         <div class="carousel-item">
                             <div class="container first-text text-center">
-                                <q>In our tightly managed environment where we run Go code, <strong>We have seen a CPU reduction of<br>
-                                     approximately 10% </strong> with cleaner and maintainable code.
+                                <q>In our tightly managed environment where we run Go code, <strong>We have seen a CPU
+                                        reduction of<br>
+                                        approximately 10% </strong> with cleaner and maintainable code.
                                 </q>
-                                <p class="text-end me-4">— Bala Natarajan, Sr. Director of Engineering, Developer Experience at PayPal</p>
+                                <p class="text-end me-4">— Bala Natarajan, Sr. Director of Engineering, Developer
+                                    Experience at PayPal</p>
                             </div>
                         </div>
-                        
+
                         <div class="carousel-item">
                             <div class="container first-text text-center">
-                                <q>Tooling has always been a problem with our legacy code base... but we have found that Go has <br>
-                                    excellent tooling, plus built-in testing, benchmarking, and profiling frameworks. It is easy to write <br>
-                                    efficient and resilient applications. <strong> After working on Go, most of our developers don't want to go <br>
-                                    back to other languages. </strong>
+                                <q>Tooling has always been a problem with our legacy code base... but we have found that
+                                    Go has <br>
+                                    excellent tooling, plus built-in testing, benchmarking, and profiling frameworks. It
+                                    is easy to write <br>
+                                    efficient and resilient applications. <strong> After working on Go, most of our
+                                        developers don't want to go <br>
+                                        back to other languages. </strong>
                                 </q>
-                                <p class="text-end me-4 mt-4">— Benjamin Cane, Vice President and Principal Engineer at American Express</p>
+                                <p class="text-end me-4 mt-4">— Benjamin Cane, Vice President and Principal Engineer at
+                                    American Express</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="container first-text text-center">
-                                <q>...when a programming language is designed for exactly the environment most of us use right <br>
-                                    now—scalable, cloud-based servers that are optimized for performance—a lot can go right.
+                                <q>...when a programming language is designed for exactly the environment most of us use
+                                    right <br>
+                                    now—scalable, cloud-based servers that are optimized for performance—a lot can go
+                                    right.
                                 </q>
                                 <p class="text-end me-4 mt-4">— John Biggs and Ben Popper, at Stack Overflow</p>
                             </div>
                         </div>
                     </div>
 
-                    <button class="carousel-control-prev bg-secondary rounded-circle scroll-button"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        
+                    <button class="carousel-control-prev bg-secondary rounded-circle scroll-button" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
                         <span class="carousel-control-prev-icon rounded-circle"></span>
                     </button>
-                    <button class="carousel-control-next bg-secondary rounded-circle scroll-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        
+                    <button class="carousel-control-next bg-secondary rounded-circle scroll-button" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+
                         <span class=" carousel-control-next-icon rounded-circle"></span>
                     </button>
                 </div>
-                
+
             </div>
-  
+
         </div>
 
     </section>
 
-        
+    <section class="section4">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Try Go</h1>
+            </div>
+            <div class="row flex-column mt-3 p-1">
+                <textarea class="playground-1 col-12">// You can edit this code!
+                    // Click here and start typing.
+                    package main
+                    
+                    import "fmt"
+                    
+                    func main() {
+                        fmt.Println("Hello, 世界")
+                    }
+                </textarea>
+                <textarea class="playground-2 col-12">
+                    Hello, 世界
+
+                    Program exited.
+                </textarea>
+
+                <div class="play-down row mt-4 align-items-center justify-content-center">
+                    <div class="play-left col-sm-6">
+                        <select >
+                            <option value="">Hello, World!</option>
+                            <option value="">Conway's Game of Life</option>
+                            <option value="">Fibonacci Closure</option>
+                            <option value="">Piano Integers</option>
+                            <option value="">Concurrent Pi</option>
+                            <option value="">concurent Prime Sieve</option>
+                            <option value="">Peg Solitaire Solver</option>
+                            <option value="">Tree Combarison</option>
+                        </select>
+                    </div>
+                    <div class="play-right col-sm-6">
+                        <div class="row justify-content-end align-items-center">
+                            <button class="btn col-1 play-btn1 me-1">Run</button>
+                            <button class="btn col-1 play-btn2 me-1">Share</button>
+                            <button class="btn col-1 play-btn2 me-1">Tour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5">
+        <div class="container-fluid">
+            <div class="row justify-content-center mb-5">
+                <div class="row sec5-top col-6 text-center">
+                    <h1>What's possible with Go</h1>
+                    <p>Use Go for a variety of software development purpose</p>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <!-- first -->
+                    <div class="card col-sm-6 col-lg-4 m-5 card-box">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="col-12 car-icon">
+                                <img src="images/for cards/sphere.svg" alt="">
+                            </div>
+                            <h5 class="card-title">Cloud & Network Service</h5>
+                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-1 ">
+                                    <img class="pack-image" src="images/for cards/package.svg" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p>Popular Packages:</p>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-start pack-box">
+                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
+                                <a  href="">aws/client</a>
+                                <a  href="">Azure/azure-sdk-for-go</a>
+                            </div>
+
+                            <div class="learn-more">
+                                <a href="">Learn More -></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- second -->
+                    <div class="card col-sm-6 m-5 card-box">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="col-12 card-icon">
+                                <img src="images/for cards/command-folder.svg" alt="">
+                            </div>
+                            <h5 class="card-title">Cloud & Network Service</h5>
+                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-1 ">
+                                    <img class="pack-image" src="images/for cards/package.svg" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p>Popular Packages:</p>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-start pack-box">
+                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
+                                <a  href="">aws/client</a>
+                                <a  href="">Azure/azure-sdk-for-go</a>
+                            </div>
+
+                            <div class="learn-more">
+                                <a href="">Learn More -></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- third -->
+                    <div class="card col-md-6 m-5 card-box">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="col-12 card-icon">
+                                <img src="images/for cards/code.svg" alt="">
+                            </div>
+                            <h5 class="card-title">Cloud & Network Service</h5>
+                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-1 ">
+                                    <img class="pack-image" src="images/for cards/package.svg" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p>Popular Packages:</p>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-start pack-box">
+                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
+                                <a  href="">aws/client</a>
+                                <a  href="">Azure/azure-sdk-for-go</a>
+                            </div>
+
+                            <div class="learn-more">
+                                <a href="">Learn More -></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- fourth -->
+                    <div class="card col-md-6 m-5 card-box">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="col-12 card-icon">
+                                <img src="images/for cards/gear.svg" alt="">
+                            </div>
+                            <h5 class="card-title">Cloud & Network Service</h5>
+                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-1 ">
+                                    <img class="pack-image" src="images/for cards/package.svg" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <p>Popular Packages:</p>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-start pack-box">
+                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
+                                <a  href="">aws/client</a>
+                                <a  href="">Azure/azure-sdk-for-go</a>
+                            </div>
+
+                            <div class="learn-more">
+                                <a href="">Learn More -></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <!-- fifth -->
+                    <div class="card col-md-6 m-5 card-box">
+
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center card-last">
+                            <div class="col-12  d-flex justify-content-center">
+                                <img style="width: 20rem;" src="images/for cards/biplane.svg" alt="">
+                            </div>
+                                
+                            <button class="btn-lg end mt-5">More use cases -></button>
+
+                        </div>
+                    </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-		
+                    
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
