@@ -86,9 +86,9 @@
     .navbar-collapse {
         position: fixed;
         top: 0;
-        left: 0;
-        padding-left: 15px;
+        right: 0;
         padding-right: 15px;
+        padding-left: 15px;
         padding-bottom: 15px;
         width: 55%;
         height: 100%;
@@ -98,17 +98,17 @@
    
 
     .navbar-collapse.collapsing {
-        left: -75%;
+        right: -75%;
         transition: height 0s ease;
     }
 
     .navbar-collapse.show {
-        left: 0;
-        transition: left 300ms ease-in-out;
+        right: 0;
+        transition: right 300ms ease-in-out;
     }
 
     .navbar-toggler.collapsed ~ .navbar-collapse {
-        transition: left 500ms ease-in-out;
+        transition: right 500ms ease-in-out;
     }
 }
 
