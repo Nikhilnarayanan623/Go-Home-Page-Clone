@@ -181,4 +181,32 @@
  
 
 /* second section */
+.section2 {
+  background-color: #FFFFFF;
+  height: max-content;
+  padding-bottom: 4rem;
+}
+
+.companies img {
+  width: 120px;
+  height: 80px;
+}
+
+
+/* section3 */
+
+.section3 {
+  background-color: #F8F8F8;
+  height: 300px;
+}
+
+.scroll-button {
+  width: 35px; 
+  height:35px;
+}
+
+.first-text {
+  
+  height: 200px;
+}
  
