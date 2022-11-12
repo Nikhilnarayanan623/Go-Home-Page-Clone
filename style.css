@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: #007D9C;
-    height: 400px;
-}
+
 
 .navbar {
+  background-color: #007D9C;
   border-bottom: solid 1px rgba(151, 151, 151, 0.688);
   height: 3.6rem;
 }
@@ -127,5 +125,38 @@ header{
     z-index:-1;
   }
 
+
+  /* first section */
+
+  .section1 {
+    background-color: #007D9C;
+  }
+
+  .sec1-image img{
+    width: 100px;
+  }
+
+  .sec1-download a{
+    color: white;
+  }
+  @media  (max-width: 766px) {
+    .section1 {
+       height: max-content;
+    }
+  }
+
+  @media (min-width: 766px){
+    
+    .sec1-image {
+      margin-top: -200px;
+      
+    }
+    .sec1-image img {
+      width: 190px;
+    }
+    .section1 {
+      height: 655px;
+   }
+  }
  
  
