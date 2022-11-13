@@ -283,4 +283,31 @@
   background-color: #007D9C;
 }
 
- 
+
+/* section last */
+/* .last-btn1 , .last-btn2 {
+
+} */
+
+.last-btn1  {
+  background-color: #007D9C;
+}
+
+.last-btn2 {
+  color: #007D9C;
+   border: #007D9C 1px solid;
+}
+ .sec6-last p {
+  color: #4d4d4d;
+  font-size: 12px;
+ }
+
+ .sec6-last a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+ }
+
+ .sec6-last a:hover {
+  text-decoration: underline;
+ }
