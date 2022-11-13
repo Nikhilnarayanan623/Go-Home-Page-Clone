@@ -156,15 +156,15 @@
                         </li>
                     </ul>
                 </div>
-
+                
                 <div class="col-12 col-md-7 order-3 order-md-3  sec1-download  g-4">
                     <div class="row g-5  container align-content-center justify-content-between ">
 
-                        <button class="btn bg-info col-5 bg-warning btn-first">Get Secured</button>
+                        <button class="btn bg-info col-5 btn-first" style=" background-color: #FDDD00 !important;">Get Secured</button>
 
 
                         <button
-                            class="btn bg-info col-5 bg-transparent border-white text-white btn-first">Download</button>
+                            class="btn bg-info col-5 bg-transparent border-white text-white btn-second">Download</button>
 
                     </div>
                     <div class="mt-4 ">
@@ -272,7 +272,7 @@
             <div class="row">
 
                 <div id="carouselExampleControls" class="carousel slide d-flex mt-5" data-bs-ride="carousel">
-                    <div class="carousel-inner ">
+                    <div class="carousel-inner">
 
                         <div class="carousel-item active">
                             <div class="container first-text text-center">
@@ -356,12 +356,12 @@
                         </div>
                     </div>
 
-                    <button class="carousel-control-prev bg-secondary rounded-circle scroll-button" type="button"
+                    <button class="carousel-control-prev bg-secondary rounded-circle scroll-button mt-5" type="button"
                         data-bs-target="#carouselExampleControls" data-bs-slide="prev">
 
                         <span class="carousel-control-prev-icon rounded-circle"></span>
                     </button>
-                    <button class="carousel-control-next bg-secondary rounded-circle scroll-button" type="button"
+                    <button class="carousel-control-next bg-secondary rounded-circle scroll-button mt-5" type="button"
                         data-bs-target="#carouselExampleControls" data-bs-slide="next">
 
                         <span class=" carousel-control-next-icon rounded-circle"></span>
@@ -380,7 +380,7 @@
                 <h1>Try Go</h1>
             </div>
             <div class="row flex-column mt-3 p-1">
-                <textarea class="playground-1 col-12">// You can edit this code!
+                <textarea class="playground-1 col-12 rounded-3">// You can edit this code!
                     // Click here and start typing.
                     package main
                     
@@ -390,15 +390,15 @@
                         fmt.Println("Hello, 世界")
                     }
                 </textarea>
-                <textarea class="playground-2 col-12">
+                <textarea class="playground-2 col-12 rounded-3">
                     Hello, 世界
 
                     Program exited.
                 </textarea>
 
-                <div class="play-down row mt-4 align-items-center justify-content-center">
-                    <div class="play-left col-sm-6">
-                        <select >
+                <div class="play-down row mt-4 align-items-center justify-content-center ">
+                    <div class="play-left col-sm-6 d-flex justify-content-center">
+                        <select class=" w-100">
                             <option value="">Hello, World!</option>
                             <option value="">Conway's Game of Life</option>
                             <option value="">Fibonacci Closure</option>
@@ -409,7 +409,7 @@
                             <option value="">Tree Combarison</option>
                         </select>
                     </div>
-                    <div class="play-right col-sm-6">
+                    <div class="play-right col-sm-6 mt-5 mt-sm-0">
                         <div class="row justify-content-end align-items-center">
                             <button class="btn col-1 play-btn1 me-1">Run</button>
                             <button class="btn col-1 play-btn2 me-1">Share</button>
@@ -452,7 +452,7 @@
                             </div>
 
                             <div class="row d-flex justify-content-start pack-box">
-                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
+                                <a  href="">cloud.google.com/go</a>
                                 <a  href="">aws/client</a>
                                 <a  href="">Azure/azure-sdk-for-go</a>
                             </div>
@@ -470,8 +470,8 @@
                             <div class="col-12 card-icon">
                                 <img src="images/for cards/command-folder.svg" alt="">
                             </div>
-                            <h5 class="card-title">Cloud & Network Service</h5>
-                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            <h5 class="card-title">Command-line Interfaces</h5>
+                            <p class="card-text">With popular open source packages and a robust standard library, use Go to create fast and elegant CLIs.</p>
                             
                             <div class="row justify-content-center">
                                 <div class="col-1 ">
@@ -483,9 +483,12 @@
                             </div>
 
                             <div class="row d-flex justify-content-start pack-box">
-                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
-                                <a  href="">aws/client</a>
-                                <a  href="">Azure/azure-sdk-for-go</a>
+                                <a  href="">spf13/cobra</a>
+                                <a  href="">spf13/viper</a>
+                                <a  href="">urfave/cli</a>
+                                <a  href="">delve</a>
+                                <a  href="">chzyer/readline</a>
+
                             </div>
 
                             <div class="learn-more">
@@ -502,8 +505,8 @@
                             <div class="col-12 card-icon">
                                 <img src="images/for cards/code.svg" alt="">
                             </div>
-                            <h5 class="card-title">Cloud & Network Service</h5>
-                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">With enhanced memory performance and support for several IDEs, Go powers fast and scalable web applications. </p>
                             
                             <div class="row justify-content-center">
                                 <div class="col-1 ">
@@ -511,13 +514,15 @@
                                 </div>
                                 <div class="col-10">
                                     <p>Popular Packages:</p>
-                                </div>
+                                </div>  
                             </div>
 
                             <div class="row d-flex justify-content-start pack-box">
-                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
-                                <a  href="">aws/client</a>
-                                <a  href="">Azure/azure-sdk-for-go</a>
+                                <a  href="">net/http</a>
+                                <a  href="">html/template</a>
+                                <a  href="">flosch/pongo2</a>
+                                <a  href="">database/sql</a>
+                                <a  href="">olivere/elastic</a>
                             </div>
 
                             <div class="learn-more">
@@ -534,8 +539,8 @@
                             <div class="col-12 card-icon">
                                 <img src="images/for cards/gear.svg" alt="">
                             </div>
-                            <h5 class="card-title">Cloud & Network Service</h5>
-                            <p class="card-text">With a strong ecosystem of tools and APIs on major cloud providers, it is easier than ever to build services with Go. </p>
+                            <h5 class="card-title">DevOps & Site Reliability</h5>
+                            <p class="card-text">With fast build times, lean syntax, an automatic formatter and doc generator, Go is built to support both DevOps and SRE.</p>
                             
                             <div class="row justify-content-center">
                                 <div class="col-1 ">
@@ -547,9 +552,9 @@
                             </div>
 
                             <div class="row d-flex justify-content-start pack-box">
-                                <a  target="_blank" href="https://cloud.google.com/go/home">cloud.google.com/go</a>
-                                <a  href="">aws/client</a>
-                                <a  href="">Azure/azure-sdk-for-go</a>
+                                <a  href="">opentracing/opentracing-go</a>
+                                <a  href="">istio/istio</a>
+                                <a  href="">urfave/cli</a>
                             </div>
 
                             <div class="learn-more">
@@ -566,7 +571,7 @@
                                 <img style="width: 20rem;" src="images/for cards/biplane.svg" alt="">
                             </div>
                             
-                            <button class="btn-lg end mt-5 text-white">More use cases </button>
+                            <button class="btn-lg end mt-5 text-white">More use cases</button>
 
                         </div>
                     </div>
@@ -775,7 +780,7 @@
                     </div>
                 </div>
                 <div class="col-4 col-md-2 text-center align-self-end align-self-md-center">
-                    <a target="_blank" href="https://google.com"><img class="google-logo" src="images/footer/google-white.png" alt=""></a>
+                    <a target="" href=""><img class="google-logo" src="images/footer/google-white.png" alt=""></a>
                     
                 </div>
             </div>

@@ -143,6 +143,14 @@
   .btn-first {
     height: 40px;
   }
+  .btn-first:hover {
+  box-shadow: 0px 5px 4px 0px rgba(80, 80, 80, 0.341);
+  border: #007D9C solid 2px;
+  }
+  .btn-second:hover {
+    box-shadow: 0px 5px 6px 0px rgba(80, 80, 80, 0.341);
+    border: #007D9C solid 2px;
+  }
   
   /* to control image, button and height of the section */
   @media  (max-width: 766px) {
@@ -152,7 +160,7 @@
   }
 
   @media (max-width:464px){
-    .btn-first{
+    .btn-first,.btn-second{
       font-size: 12px;
       width: 100px;
       height: 40px;
@@ -201,8 +209,9 @@
 }
 
 .scroll-button {
-  width: 35px; 
-  height:35px;
+  width: 30px; 
+  height:30px;
+  margin: 4px;
 }
 
 .first-text {
@@ -281,6 +290,13 @@
 
 .card-last button {
   background-color: #007D9C;
+  border: none;
+  box-shadow: 0px 5px 4px 0px rgba(80, 80, 80, 0.341);
+}
+.card-last button:hover {
+  background-color: #059bc0;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(80, 80, 80, 0.341);
 }
 
 
