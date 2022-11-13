@@ -311,3 +311,52 @@
  .sec6-last a:hover {
   text-decoration: underline;
  }
+
+ /* footer section */
+ footer {
+  background-color: #253443;
+ }
+ .manual-table a {
+  color: white;
+  text-decoration: none;
+ }
+ .manual-table a:hover {
+  text-decoration: underline;
+ }
+ 
+ .data-head {
+    margin: 1rem 0;
+    width: 6rem;
+ }
+ .data-head a{
+   font-size: 18px;
+ }
+
+ .data-text {
+  padding: .3rem 0;
+  width: 9rem;
+ }
+ .data-text a{ 
+  font-size: 15px;
+ }
+
+
+ .footer-last .pilot {
+  width: 50px;
+ }
+
+ .footer-last .google-logo {
+  width: 60px;
+ }
+
+ .foot-last-center a{
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+ }
+
+ /* .foot-last-center div {
+ } */
+ .foot-last-center a:hover{
+  text-decoration: underline;
+ }
